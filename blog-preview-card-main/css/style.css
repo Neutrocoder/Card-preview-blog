@@ -19,9 +19,11 @@ body{
 
 .contenedor{
     padding: 22px;
+    justify-content: center;
+    align-items: center;
 }
 
-.card_contenedor{
+.card_contenedor{ 
     background-color: var(--Blanco);
     border-radius: 20px;
     border:1px solid var(--Negro);
