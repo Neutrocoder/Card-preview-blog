@@ -1,0 +1,126 @@
+:root{
+    /* colores  */
+    --Amarillo: hsl(47, 88%, 63%);
+    --Blanco: hsl(0, 0%, 100%);
+    --Gris: hsl(0, 0%, 50%);
+    --Negro: hsl(0, 0%, 7%);
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--Amarillo);
+}
+
+.contenedor{
+    padding: 22px;
+}
+
+.card_contenedor{
+    background-color: var(--Blanco);
+    border-radius: 20px;
+    border:1px solid var(--Negro);
+    margin: 0 auto;
+    padding: 24px;
+    width: 386px;
+    height: 519px;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+}
+
+.img{
+    background-image: url(../assets/images/illustration-article.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+.learning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    background-color: var(--Amarillo);
+    width: 80px;
+    height: 27px;
+    border-radius: 4px;
+    gap: 8px;
+}
+.dia{
+    font-weight: 600;
+}
+.titulo_card{
+    color: var(--Negro);
+    font-weight: 800;
+    font-size: 24px;
+}
+.titulo_card:hover{
+    color: var(--Amarillo);
+    transition: all .5s;
+}
+
+.texto_card{
+    color: var(--Gris);
+    line-height: 1.8;
+    font-weight: 500;
+}
+.autor{
+    display: flex;
+    align-items: center;
+}
+.autor p{
+    color: var(--Negro);
+    font-weight: 800;
+}
+.autor-img img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* atribucion front end mentor */
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
